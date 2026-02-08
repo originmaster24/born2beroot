@@ -46,6 +46,7 @@ Signature Check: Compare the local signature.txt with the disk image (on host): 
 
 Monitoring Script
 The monitoring script runs automatically every 10 minutes via Cron. /home/zzhu/monitoring.sh
+Setting with sudo crontab -u root -e
 
 Resources
 Debian Security Manual https://www.debian.org/doc/manuals/securing-debian-manual/index.en.html
